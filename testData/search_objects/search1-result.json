@@ -1,0 +1,184 @@
+{
+    "pagination": {
+        "start": 0,
+        "count": 3
+    },
+    "sorting_rules": [
+        {
+            "property": "access_group_id",
+            "is_object_property": 0,
+            "ascending": 0
+        },
+        {
+            "property": "type",
+            "is_object_property": 0,
+            "ascending": 1
+        }
+    ],
+    "objects": [
+        {
+            "guid": "WS:53331/2/2",
+            "object_name": "GCF_000305455.2",
+            "timestamp": 1598111658429,
+            "type": "Genome",
+            "type_ver": 2,
+            "creator": "jayrbolton",
+            "copier": "eapearson",
+            "mod": "refseq_importer",
+            "method": "run_local_tests",
+            "module_ver": "local-dev",
+            "data": {
+                "assembly_ref": "15792/28778/4",
+                "cdss": 5287,
+                "domain": "Bacteria",
+                "feature_counts": {
+                    "CDS": 5287,
+                    "assembly_gap": 58,
+                    "gene": 5383,
+                    "misc_feature": 9,
+                    "ncRNA": 7,
+                    "non_coding_features": 266,
+                    "non_coding_genes": 96,
+                    "protein_encoding_gene": 5287,
+                    "rRNA": 6,
+                    "regulatory": 6,
+                    "repeat_region": 1,
+                    "tRNA": 82,
+                    "tmRNA": 1
+                },
+                "features": 5287,
+                "genome_tiers": [
+                    "ExternalDB"
+                ],
+                "id": "GCF_000305455.2",
+                "mrnas": 0,
+                "non_coding_features": 266,
+                "notes": "REFSEQ INFORMATION: The reference sequence was derived from\nJH967985.\nBacterial source available from the Biodefense and Emerging\nInfections Research Resources Repository.\nThe annotation was added by the NCBI Prokaryotic Genome Annotation\nPipeline (PGAP). Information about PGAP can be found here:\nhttps://www.ncbi.nlm.nih.gov/genome/annotation_prok/\n                                     Annotation Pipeline (PGAP)\n                                     set; GeneMarkS-2+\n                                     repeat_region",
+                "num_contigs": 363,
+                "scientific_name": "Escherichia coli 88.0221",
+                "source": "RefSeq",
+                "source_id": "NZ_JH967985",
+                "suspect": 1,
+                "taxonomy": "cellular organisms; Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Escherichia; Escherichia coli",
+                "warnings": [
+                    "SUSPECT: CDS BD07_RS23710_CDS_1 has a length of 1361 which is not consistent with the length of the translation included (452 amino acids).",
+                    "SUSPECT: CDS BD07_RS23405_CDS_1 has a length of 797 which is not consistent with the length of the translation included (264 amino acids).",
+                    "SUSPECT: CDS BD07_RS21205_CDS_1 has a length of 374 which is not consistent with the length of the translation included (123 amino acids).",
+                    "SUSPECT: CDS BD07_RS27435_CDS_1 has a length of 86 which is not consistent with the length of the translation included (27 amino acids).",
+                    "SUSPECT: CDS BD07_RS0124575_CDS_1 has a length of 119 which is not consistent with the length of the translation included (38 amino acids).",
+                    "SUSPECT: CDS BD07_RS0124595_CDS_1 has a length of 299 which is not consistent with the length of the translation included (98 amino acids).",
+                    "SUSPECT: CDS BD07_RS17150_CDS_1 has a length of 146 which is not consistent with the length of the translation included (47 amino acids).",
+                    "SUSPECT: CDS BD07_RS17090_CDS_1 has a length of 896 which is not consistent with the length of the translation included (297 amino acids).",
+                    "SUSPECT: CDS BD07_RS0124960_CDS_1 has a length of 119 which is not consistent with the length of the translation included (38 amino acids).",
+                    "SUSPECT: CDS BD07_RS15320_CDS_1 has a length of 239 which is not consistent with the length of the translation included (78 amino acids).",
+                    "SUSPECT: CDS BD07_RS15215_CDS_1 has a length of 236 which is not consistent with the length of the translation included (77 amino acids).",
+                    "SUSPECT: CDS BD07_RS28600_CDS_1 has a length of 185 which is not consistent with the length of the translation included (60 amino acids).",
+                    "SUSPECT: CDS BD07_RS28610_CDS_1 has a length of 188 which is not consistent with the length of the translation included (61 amino acids).",
+                    "SUSPECT: CDS BD07_RS31755_CDS_1 has a length of 161 which is not consistent with the length of the translation included (52 amino acids).",
+                    "SUSPECT: CDS BD07_RS13880_CDS_1 has a length of 407 which is not consistent with the length of the translation included (134 amino acids).",
+                    "SUSPECT: CDS BD07_RS31790_CDS_1 has a length of 98 which is not consistent with the length of the translation included (31 amino acids).",
+                    "SUSPECT: CDS BD07_RS0126010_CDS_1 has a length of 836 which is not consistent with the length of the translation included (277 amino acids).",
+                    "SUSPECT: CDS BD07_RS00790_CDS_1 has a length of 530 which is not consistent with the length of the translation included (175 amino acids).",
+                    "SUSPECT: CDS BD07_RS00245_CDS_1 has a length of 1112 which is not consistent with the length of the translation included (369 amino acids)."
+                ]
+            },
+            "key_props": {
+                "feature_types": "5287, 58, 5383, 9, 7, 266, 96, 5287, 6, 6, 1, 82, 1",
+                "notes": "REFSEQ INFORMATION: The reference sequence was derived from\nJH967985.\nBacterial source available from the Biodefense and Emerging\nInfections Research Resources Repository.\nThe annotation was added by the NCBI Prokaryotic Genome Annotation\nPipeline (PGAP). Information about PGAP can be found here:\nhttps://www.ncbi.nlm.nih.gov/genome/annotation_prok/\n                                     Annotation Pipeline (PGAP)\n                                     set; GeneMarkS-2+\n                                     repeat_region",
+                "non_coding_feature_count": "266",
+                "assembly_guid": "WS:15792/28778/4",
+                "warnings": "SUSPECT: CDS BD07_RS23710_CDS_1 has a length of 1361 which is not consistent with the length of the translation included (452 amino acids)., SUSPECT: CDS BD07_RS23405_CDS_1 has a length of 797 which is not consistent with the length of the translation included (264 amino acids)., SUSPECT: CDS BD07_RS21205_CDS_1 has a length of 374 which is not consistent with the length of the translation included (123 amino acids)., SUSPECT: CDS BD07_RS27435_CDS_1 has a length of 86 which is not consistent with the length of the translation included (27 amino acids)., SUSPECT: CDS BD07_RS0124575_CDS_1 has a length of 119 which is not consistent with the length of the translation included (38 amino acids)., SUSPECT: CDS BD07_RS0124595_CDS_1 has a length of 299 which is not consistent with the length of the translation included (98 amino acids)., SUSPECT: CDS BD07_RS17150_CDS_1 has a length of 146 which is not consistent with the length of the translation included (47 amino acids)., SUSPECT: CDS BD07_RS17090_CDS_1 has a length of 896 which is not consistent with the length of the translation included (297 amino acids)., SUSPECT: CDS BD07_RS0124960_CDS_1 has a length of 119 which is not consistent with the length of the translation included (38 amino acids)., SUSPECT: CDS BD07_RS15320_CDS_1 has a length of 239 which is not consistent with the length of the translation included (78 amino acids)., SUSPECT: CDS BD07_RS15215_CDS_1 has a length of 236 which is not consistent with the length of the translation included (77 amino acids)., SUSPECT: CDS BD07_RS28600_CDS_1 has a length of 185 which is not consistent with the length of the translation included (60 amino acids)., SUSPECT: CDS BD07_RS28610_CDS_1 has a length of 188 which is not consistent with the length of the translation included (61 amino acids)., SUSPECT: CDS BD07_RS31755_CDS_1 has a length of 161 which is not consistent with the length of the translation included (52 amino acids)., SUSPECT: CDS BD07_RS13880_CDS_1 has a length of 407 which is not consistent with the length of the translation included (134 amino acids)., SUSPECT: CDS BD07_RS31790_CDS_1 has a length of 98 which is not consistent with the length of the translation included (31 amino acids)., SUSPECT: CDS BD07_RS0126010_CDS_1 has a length of 836 which is not consistent with the length of the translation included (277 amino acids)., SUSPECT: CDS BD07_RS00790_CDS_1 has a length of 530 which is not consistent with the length of the translation included (175 amino acids)., SUSPECT: CDS BD07_RS00245_CDS_1 has a length of 1112 which is not consistent with the length of the translation included (369 amino acids).",
+                "mrna_count": "0",
+                "scientific_name": "Escherichia coli 88.0221",
+                "source": "RefSeq",
+                "suspect": "1",
+                "taxonomy": "cellular organisms; Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Escherichia; Escherichia coli",
+                "contig_count": "363",
+                "scientific_name_keyword": "Escherichia coli 88.0221",
+                "domain": "Bacteria",
+                "feature_count": "5287",
+                "id": "GCF_000305455.2",
+                "source_id": "NZ_JH967985",
+                "genome_tiers": "ExternalDB",
+                "cds_count": "5287"
+            },
+            "highlight": {
+                "scientific_name": [
+                    "Escherichia <em>coli</em> 88.0221"
+                ],
+                "taxonomy": [
+                    "cellular organisms; Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Escherichia; Escherichia <em>coli</em>"
+                ]
+            }
+        },
+        {
+            "guid": "WS:48753/1/7",
+            "object_name": "Narrative.1585596681448",
+            "timestamp": 1586539906051,
+            "type": "Narrative",
+            "type_ver": 1,
+            "creator": "eapearson",
+            "mod": "narrative",
+            "module_ver": "4.1.1",
+            "key_props": {
+                "title": "RE landing page sample links"
+            },
+            "highlight": {
+                "source": [
+                    "## Taxonomy Landing Pages\n\nThe ubiquitous E. <em>coli</em>...\n\nNCBI:\n\n[https://ci.kbase.us/#review",
+                    " specific item to be viewed; the form of the id depends on the collection,e.g. `562` is E. <em>coli</em> in the",
+                    "\",\n\t\t\"search_text\": \"<em>coli</em>\"\n\t}],\n\t\"method\": \"taxonomy_re_api.search_taxa\",\n\t\"version\": \"1.1\",\n\t\"id",
+                    " <em>coli</em>\",\n                    \"rank\": \"genome\",\n                    \"release_created\": 0",
+                    " <em>coli</em>\",\n                    \"rank\": \"genome\",\n                    \"release_created\": 0"
+                ]
+            }
+        },
+        {
+            "guid": "WS:48363/1/16",
+            "object_name": "Narrative.1584398098566",
+            "timestamp": 1585606408022,
+            "type": "Narrative",
+            "type_ver": 1,
+            "creator": "swwang",
+            "mod": "narrative",
+            "module_ver": "4.1.0",
+            "key_props": {
+                "title": "EXPLORE enigma AmpliconSet"
+            },
+            "highlight": {
+                "code_output": [
+                    " biosynthesis I (from aspartate):O-antigen building blocks biosynthesis (E. <em>coli</em>):pantothenate and coenzyme A",
+                    " I:polyisoprenoid biosynthesis (E. <em>coli</em>):preQ0 biosynthesis:pyrimidine deoxyribonucleotide",
+                    " deoxyribonucleotides de novo biosynthesis (E. <em>coli</em>):superpathway of pyrimidine nucleobases",
+                    "-tetrahydrofolate biosynthesis:NAD biosynthesis I (from aspartate):O-antigen building blocks biosynthesis (E. <em>coli</em>",
+                    " biosynthesis I (plastidic):phosphopantothenate biosynthesis I:polyisoprenoid biosynthesis (E. <em>coli</em>"
+                ]
+            }
+        }
+    ],
+    "total": 6578,
+    "search_time": 810,
+    "access_group_narrative_info": {
+        "48363": [
+            "EXPLORE enigma AmpliconSet",
+            1,
+            1585606470000,
+            "swwang",
+            "Sumin Wang"
+        ],
+        "48753": [
+            "RE landing page sample links",
+            1,
+            1586539906000,
+            "eapearson",
+            "Erik A Pearson"
+        ],
+        "53331": [
+            "copy test 1",
+            1,
+            1599078640000,
+            "eapearson",
+            "Erik A Pearson"
+        ]
+    }
+}

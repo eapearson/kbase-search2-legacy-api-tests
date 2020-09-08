@@ -1,0 +1,218 @@
+{
+    "pagination": {
+        "start": 0,
+        "count": 3
+    },
+    "sorting_rules": [
+        {
+            "is_object_property": 0,
+            "property": "access_group_id",
+            "ascending": 0
+        },
+        {
+            "is_object_property": 0,
+            "property": "type",
+            "ascending": 1
+        }
+    ],
+    "total": 2,
+    "search_time": 105,
+    "objects": [
+        {
+            "object_name": "prokka_ouput_1",
+            "access_group": 47458,
+            "obj_id": 7,
+            "version": 1,
+            "timestamp": 1585919913126,
+            "type": "Genome",
+            "creator": "kbaseuitest",
+            "key_props": {
+                "genome_id": "GCF_000015645.1",
+                "scientific_name": "Prochlorococcus marinus str. AS9601",
+                "publication_titles": [
+                    "Direct Submission",
+                    "Patterns and implications of gene gain and loss in the evolution of Prochlorococcus"
+                ],
+                "publication_authors": [
+                    "Chisholm,S., Huang,K., Martiny,A., Kettler,G., Coleman,M., Keller,K., Arkin,A., Coe,A., Rodrigue,S., Ferriera,S., Johnson,J., Kravitz,S., Beeson,K., Sutton,G., Rogers,Y.-H., Friedman,R., Frazier,M. and Venter,J.C.",
+                    "Kettler,G.C., Martiny,A.C., Huang,K., Zucker,J., Coleman,M.L., Rodrigue,S., Chen,F., Lapidus,A., Ferriera,S., Johnson,J., Steglich,C., Church,G.M., Richardson,P. and Chisholm,S.W."
+                ],
+                "size": 1669886,
+                "num_contigs": 1,
+                "genome_type": "Unknown",
+                "gc_content": 0.313215393146598,
+                "taxonomy": "cellular organisms; Bacteria; Terrabacteria group; Cyanobacteria/Melainabacteria group; Cyanobacteria; Synechococcales; Prochloraceae; Prochlorococcus; Prochlorococcus marinus",
+                "mean_contig_length": null,
+                "external_origination_date": "24-NOV-2016",
+                "original_source_file_name": "GCF_000015645.1_ASM1564v1_genomic.gbff",
+                "cds_count": 1780,
+                "feature_count": 1780,
+                "mrna_count": 1780,
+                "non_coding_feature_count": 46,
+                "assembly_ref": "15792:63937:1",
+                "source_id": "NC_008816",
+                "feature_counts": {
+                    "CDS": 1780,
+                    "gene": 1826,
+                    "mRNA": 1780,
+                    "non_coding_features": 46,
+                    "non_coding_genes": 46,
+                    "protein_encoding_gene": 1780,
+                    "pseudogene": 14
+                },
+                "source": "RefSeq",
+                "warnings": [
+                    "Genome molecule_type Unknown is not expected for domain Bacteria.",
+                    "Unable to determine organism taxonomy"
+                ],
+                "shared_users": [
+                    "kbaseuitest"
+                ],
+                "creation_date": "2020-04-03T13:18:35+0000",
+                "is_public": false,
+                "copied": null,
+                "tags": [
+                    "narrative"
+                ],
+                "obj_type_version": "17.0",
+                "obj_type_module": "KBaseGenomes"
+            },
+            "guid": "WS:47458/7/1",
+            "kbase_id": "47458/7/1",
+            "index_name": "genome_1",
+            "type_ver": 0,
+            "highlight": {
+                "publication_titles": [
+                    "Patterns and implications of gene gain and loss in the evolution of <em>Prochlorococcus</em>"
+                ]
+            }
+        },
+        {
+            "object_name": "Prochlorococcus_marinus_str._AS9601",
+            "access_group": 47458,
+            "obj_id": 6,
+            "version": 1,
+            "timestamp": 1485794271879,
+            "type": "Genome",
+            "creator": "qzhang",
+            "key_props": {
+                "genome_id": "GCF_000015645.1",
+                "scientific_name": "Prochlorococcus marinus str. AS9601",
+                "publication_titles": [
+                    "Direct Submission",
+                    "Patterns and implications of gene gain and loss in the evolution of Prochlorococcus"
+                ],
+                "publication_authors": [
+                    "Chisholm,S., Huang,K., Martiny,A., Kettler,G., Coleman,M., Keller,K., Arkin,A., Coe,A., Rodrigue,S., Ferriera,S., Johnson,J., Kravitz,S., Beeson,K., Sutton,G., Rogers,Y.-H., Friedman,R., Frazier,M. and Venter,J.C.",
+                    "Kettler,G.C., Martiny,A.C., Huang,K., Zucker,J., Coleman,M.L., Rodrigue,S., Chen,F., Lapidus,A., Ferriera,S., Johnson,J., Steglich,C., Church,G.M., Richardson,P. and Chisholm,S.W."
+                ],
+                "size": 1669886,
+                "num_contigs": 1,
+                "genome_type": null,
+                "gc_content": 0.313215393146598,
+                "taxonomy": "cellular organisms; Bacteria; Terrabacteria group; Cyanobacteria/Melainabacteria group; Cyanobacteria; Synechococcales; Prochloraceae; Prochlorococcus; Prochlorococcus marinus",
+                "mean_contig_length": null,
+                "external_origination_date": "24-NOV-2016",
+                "original_source_file_name": "GCF_000015645.1_ASM1564v1_genomic.gbff",
+                "cds_count": 1780,
+                "feature_count": 1840,
+                "mrna_count": 1780,
+                "non_coding_feature_count": 0,
+                "assembly_ref": "15792:63937:1",
+                "source_id": "NC_008816",
+                "feature_counts": null,
+                "source": "refseq",
+                "warnings": null,
+                "shared_users": [
+                    "kbaseuitest"
+                ],
+                "creation_date": "2020-04-03T13:11:52+0000",
+                "is_public": false,
+                "copied": "15792/63939/1",
+                "tags": [
+                    "narrative"
+                ],
+                "obj_type_version": "12.3",
+                "obj_type_module": "KBaseGenomes"
+            },
+            "guid": "WS:47458/6/1",
+            "kbase_id": "47458/6/1",
+            "index_name": "genome_1",
+            "type_ver": 0,
+            "highlight": {
+                "publication_titles": [
+                    "Patterns and implications of gene gain and loss in the evolution of <em>Prochlorococcus</em>"
+                ]
+            }
+        }
+    ],
+    "access_group_narrative_info": {
+        "47458": [
+            "Sample Jobs for Testing",
+            1,
+            1586207131,
+            "kbaseuitest",
+            "KBase UI Test User"
+        ]
+    },
+    "objects_info": {
+        "47458/6/1": [
+            6,
+            "Prochlorococcus_marinus_str._AS9601",
+            "KBaseGenomes.Genome-12.3",
+            "2020-04-03T13:11:52+0000",
+            1,
+            "kbaseuitest",
+            47458,
+            "kbaseuitest:narrative_1581717956468",
+            "97651069d88cbcfe5f9457a93cba14f6",
+            5661405,
+            {
+                "Taxonomy": "cellular organisms; Bacteria; Terrabacteria group; Cyanobacteria/Melainabacteria group; Cyanobacteria; Synechococcales; Prochloraceae; Prochlorococcus; Prochlorococcus marinus",
+                "Size": "1669886",
+                "accession": "GCF_000015645.1",
+                "version": "1",
+                "refname": "GCF_000015645.1",
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/015/645/GCF_000015645.1_ASM1564v1/GCF_000015645.1_ASM1564v1_genomic.gbff.gz",
+                "Source": "refseq",
+                "Name": "Prochlorococcus marinus str. AS9601",
+                "GC content": "0.313215393146598",
+                "Genetic code": "11",
+                "Source ID": "NC_008816",
+                "Number features": "1840",
+                "Number contigs": "1",
+                "refid": "GCF_000015645",
+                "Domain": "Bacteria"
+            }
+        ],
+        "47458/7/1": [
+            7,
+            "prokka_ouput_1",
+            "KBaseGenomes.Genome-17.0",
+            "2020-04-03T13:18:35+0000",
+            1,
+            "kbaseuitest",
+            47458,
+            "kbaseuitest:narrative_1581717956468",
+            "d2ec1e92199ca758717c5fbaf0df9d4d",
+            6269805,
+            {
+                "Taxonomy": "cellular organisms; Bacteria; Terrabacteria group; Cyanobacteria/Melainabacteria group; Cyanobacteria; Synechococcales; Prochloraceae; Prochlorococcus; Prochlorococcus marinus",
+                "Size": "1669886",
+                "Source": "RefSeq",
+                "Name": "Prochlorococcus marinus str. AS9601",
+                "GC content": "0.313215393146598",
+                "Genetic code": "11",
+                "Type": "Unknown",
+                "Number of Genome Level Warnings": "2",
+                "Source ID": "NC_008816",
+                "Number of Protein Encoding Genes": "1780",
+                "Assembly Object": "15792/63937/1",
+                "Number contigs": "1",
+                "Domain": "Bacteria",
+                "Number of CDS": "1780",
+                "MD5": "fe2f8dd92cdb389c7921ae1b5394b143"
+            }
+        ]
+    }
+}

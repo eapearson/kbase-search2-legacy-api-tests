@@ -1,0 +1,8 @@
+# Test config file
+---
+
+# Should be a test user, which will match the test data.
+username: kbaseuitest
+# Token always provided as an environment variable TOKEN; must be a token
+# for the above user.
+token: 
